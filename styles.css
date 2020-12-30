@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: .5fr 2fr .15fr;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+
+body {
+  background-color: rgba(0,0,0);
+  cursor: none
+}
+
+nav {
+  background-color: grey;
+  grid-area: nav;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0em 2em 3em 2em;
+  text-align: center;
+}
+
+
+
+.title,
+.videos,
+.hamburger {
+  margin-right: 10em;
+}
+
+.hamburger {
+
+}
+
+.videos {
+
+}
+
+.nav-logos {
+  margin-left: auto;
+  margin-right: 5em;
+}
+
+.admin {
+  margin-bottom: 2em;
+}
+
+.logo {
+  font-size: 3em;
+}
+
+main {
+  background-color: lightgrey;
+  grid-area: main;
+}
+
+.content {
+  display: grid;
+  background-color: lightblue;
+  height: 90%;
+  margin: 2em 2em
+}
+
+footer {
+  background-color: grey;
+  grid-area: footer;
+}
+
+
+.shadow {
+  filter: brightness(65%) sepia(15%);
+  box-shadow: 0 0 14px 14px black inset;
+  clip-path: circle(150px at var(--x) var(--y));
+  animation: flicker 15s infinite;
+}
+
+@keyframes flicker {
+  44.2% {
+    filter: brightness(65%);
+  }
+
+  44.5% {
+    filter: brightness(25%);
+  }
+
+  44.7% {
+    filter: brightness(65%)
+  }
+
+  45% {
+    filter: brightness(50%)
+  }
+
+  45.6% {
+    filter: brightness(50%);
+  }
+
+  46% {
+    filter: brightness(10%);
+  }
+
+  46.2% {
+    filter: brightness(65%);
+  }
+
+  46.5% {
+    filter: brightness(15%);
+  }
+
+  47.5% {
+    filter: brightness(65%);
+  }
+}
