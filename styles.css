@@ -18,7 +18,7 @@
 
 body {
   background-color: rgba(0,0,0);
-  cursor: none
+  /* cursor: none */
 }
 
 nav {
@@ -69,7 +69,10 @@ main {
   display: grid;
   background-color: lightblue;
   height: 90%;
-  margin: 2em 2em
+  margin: 2em 2em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1.5em;
 }
 
 footer {
