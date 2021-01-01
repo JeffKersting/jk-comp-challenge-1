@@ -82,22 +82,45 @@ main {
   padding: 1em;
   display: grid;
   background-color: black;
-  height: 90vh;
+  height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: .75em;
-  resize: vertical;
 }
 
 .card {
   border-radius: .3em;
-  background-color: #8a0303;
+  background-color: rgba(35,35,0);;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid #8a0303;
+}
+.card:hover{
+  cursor: pointer
 }
 
+.kill-count {
+  position: absolute;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1em;
+  padding-right: 8px;
+  padding-top: 8px;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+img {
+  align-self: center;
+  height: 55%;
+  width: 101%;
+  margin: -.5em auto 0 auto;
+}
+
+h1 {
+  margin-top: .2em;
+  margin-bottom: 1em
+}
 
 .card-top {
   display: flex;
