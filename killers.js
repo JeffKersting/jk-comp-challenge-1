@@ -3,6 +3,7 @@ const killers = [
    image : './assets/halloween.jpg',
    killCount : 121,
    wiki : 'https://en.wikipedia.org/wiki/Michael_Myers_(Halloween)',
+   movie: 'Halloween',
    rottenTomatoes : 'https://www.rottentomatoes.com/m/1009113-halloween',
    films : 'https://www.imdb.com/list/ls066334100/',
    totalFilms : 11
@@ -11,6 +12,7 @@ const killers = [
   image : './assets/jason.jpg',
   killCount : 157,
   wiki : 'https://en.wikipedia.org/wiki/Jason_Voorhees',
+  movie: 'Friday the 13th',
   rottenTomatoes : 'https://www.rottentomatoes.com/m/friday_the_13th_part_1',
   films : 'https://www.imdb.com/list/ls009545302/',
   totalFilms : 13
@@ -19,6 +21,7 @@ const killers = [
  image : './assets/freddy.jpg',
  killCount : 39,
  wiki : 'https://en.wikipedia.org/wiki/Freddy_Krueger',
+ movie: 'A Nightmare on Elm Street',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/nightmare_on_elm_street',
  films : 'https://www.imdb.com/list/ls009545233/',
  totalFilms : 11
@@ -27,6 +30,7 @@ const killers = [
  image : './assets/chucky.png',
  killCount : 38,
  wiki : 'https://en.wikipedia.org/wiki/Chucky_(character)',
+ movie: 'Cult of Chucky',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/cult_of_chucky',
  films : 'https://www.imdb.com/list/ls027750182/',
  totalFilms : 7
@@ -35,6 +39,7 @@ const killers = [
  image : './assets/saw.jpg',
  killCount : 60,
  wiki : 'https://en.wikipedia.org/wiki/Jigsaw_(Saw_character)',
+ movie: 'Saw',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/saw',
  films : 'https://www.imdb.com/list/ls071983564/',
  totalFilms : 9
@@ -43,6 +48,7 @@ const killers = [
  image : './assets/pinhead.jpg',
  killCount : 35,
  wiki : 'https://en.wikipedia.org/wiki/Pinhead_(Hellraiser)',
+ movie: 'Hellraiser',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/hellraiser/reviews',
  films : 'https://www.imdb.com/list/ls064242940/',
  totalFilms : 34
@@ -51,6 +57,7 @@ const killers = [
  image : './assets/leatherface.jpg',
  killCount : 14,
  wiki : 'https://en.wikipedia.org/wiki/Leatherface',
+ movie: 'The Texas Chainsaw Massacre',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/1021112-texas_chainsaw_massacre',
  films : 'https://www.imdb.com/list/ls000681853/',
  totalFilms : 6
@@ -59,6 +66,7 @@ const killers = [
  image : './assets/jackfrost.jpg',
  killCount : 10,
  wiki : 'https://en.wikipedia.org/wiki/Jack_Frost_(1997_film)',
+ movie: 'Jack Frost',
  rottenTomatoes : 'https://www.rottentomatoes.com/m/1077660-jack_frost',
  films : 'https://www.imdb.com/title/tt0116671/',
  totalFilms : 2
